@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const User = ({ user }) => {
     const { id, name, email, phone } = user;
-    console.log(user);
+    // console.log(user);
     const userStyle = {
         border: '2px solid yellow',
         padding: '10px',
